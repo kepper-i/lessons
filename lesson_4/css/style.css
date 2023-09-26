@@ -1,0 +1,74 @@
+@import url("reset.css");
+
+/* ------------------------------------------- */
+
+.subtitle2 ~ p {
+  color: darkslateblue;
+}
+
+.subtitle2 + p {
+  color: rgb(35, 216, 56);
+}
+
+.item .link {
+  color: rgb(107, 179, 159);
+}
+
+.item > a {
+  color: rgb(46, 46, 46);
+}
+
+.item a {
+  color: aquamarine;
+}
+
+.item * {
+  color: yellow;
+}
+
+/*---------------------------------------------*/
+
+.text.subtext {
+  color: black;
+}
+
+h2.subtitle {
+  color: darkorange;
+}
+
+.text,
+.subtext {
+  color: rgb(181, 181, 181);
+}
+
+h2 {
+  color: blue;
+}
+
+#text1 {
+  color: brown;
+}
+
+[class = "text"] {
+  color: aqua;
+}
+
+.subtext {
+  color: violet;
+}
+
+.text {
+  color: rgb(220, 20, 123);
+}
+
+p {
+  color: green;
+}
+
+* {
+  color: red;
+}
+
+
+
+
