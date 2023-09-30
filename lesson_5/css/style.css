@@ -1,0 +1,132 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+/* --------------------------------------------------- */
+
+.header {
+  font-family: 'ProximaNova';
+  /* font-family: 'ProximaNova', sans-serif; */
+  font-size: 16px;
+  font-style: normal;
+  color: black;
+  font-weight: 300;
+}
+
+.header h3 {
+  font-size: 22px;
+  text-shadow: 5px 5px 10px #6690af;
+}
+
+.header .item {
+  color: rgb(23, 98, 177);
+  text-decoration: underline;
+  
+}
+
+/* --------------------------------------------------- */
+
+/*================= Розробка статті ====================*/
+
+
+.my-article {
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  color: black;
+  font-weight: 400;
+}
+
+.my-article h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  word-spacing: 8px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image span {
+  color: gray;
+  vertical-align: bottom;
+}
+
+.paragraph h2 {
+  font-size: 25px;
+  line-height: 2;
+  word-spacing: 10px;
+}
+
+.my-article p {
+  text-indent: 10px;
+}
+
+.link-video {
+  text-decoration: underline;
+  font-size: 20px;
+  color: rgb(9, 102, 184);
+  text-shadow: 2px 2px 20px rgba(9, 102, 184, 0.474);
+  letter-spacing: 3px;
+}
+
+.line {
+  color: gray;
+  line-height: 2;
+}
+
+/* --------------------------------------------------- */
+
+.footer {
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+
+/*================= Розробка макета ====================*/
+
+.model {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #7D7D7D;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.46187;
+}
+
+.model4-title,
+.model4-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 3;
+}
+
+.model4-title {
+  color: #37393F;
+  font-size: 30px;
+}
+
+.model4-subtitle {
+  color: #6B77E5;
+  font-size: 20px;
+}
+
+.model5-title {
+  color: #37393F;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.2;
+}
+
+.model5-item {
+  font-weight: 500;
+  line-height: 3.2;
+}
+
+
