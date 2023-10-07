@@ -4,7 +4,8 @@
 /*-------------------------------------*/
 
 .container {
-  max-width: 1218px;
+  padding: 0 15px;
+  max-width: 1248px;
   margin: 0 auto;
 }
 
@@ -129,7 +130,7 @@ h1, h2, h3 {
 
 
 .information-block {
-  padding-left: 390px;
+  padding-left: 32.02%;
   margin-bottom: 150px;
 }
 
