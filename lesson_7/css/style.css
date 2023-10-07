@@ -1,0 +1,339 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+/*-------------------------------------*/
+
+.container {
+  max-width: 1218px;
+  margin: 0 auto;
+}
+
+span {
+  color: #40DDB6;
+}
+
+/*===================header==================*/
+
+.header {
+  color: #37393F;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 42px 0;
+  margin-bottom: 100px;
+  background-color: #e9ebf0;
+}
+
+.header img {
+  height: 29px;
+}
+
+.header span {
+  color: #6B77E5;
+}
+
+.header h3 {
+  display: inline-block;
+}
+
+/*===================footer==================*/
+
+
+.footer {
+  background-color: #37393F;
+  color: #FFF;
+  font-family: "Inter";
+  line-height: 1.445;
+  padding: 50px 0 104px;
+}
+
+.footer-violet {
+  color: #6B77E5;
+}
+
+/*===================main==================*/
+
+
+.main {
+  color: #7D7D7D;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.46;
+}
+
+h1, h2, h3 {
+  color: #37393F;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+
+/*---------------------------------------------*/
+/*================licencing-block==============*/
+/*---------------------------------------------*/
+
+.licencing-block {
+  margin-bottom: 150px;
+}
+
+.mini-text {
+  text-align: center;
+  color: #37393F;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.21;
+  margin-bottom: 70px;
+}
+
+.subtitle {
+  font-size: 40px;
+  line-height: 1.21;
+  margin-bottom: 11px;
+}
+
+.minititle {
+  font-size: 30px;
+}
+
+.graphics {
+  margin-bottom: 32px;
+}
+
+.phosphor,
+.unsplash {
+  margin-bottom: 100px;
+}
+
+.photography,
+.pexels {
+  margin-bottom: 24px;
+}
+
+.pexels h3,
+.unsplash h3 {
+  margin-bottom: 8px;
+}
+
+/*---------------------------------------------*/
+/*===============information-block=============*/
+/*---------------------------------------------*/
+
+
+.information-block {
+  padding-left: 390px;
+  margin-bottom: 150px;
+}
+
+.information-block .subtitle {
+  margin-bottom: 13px;
+}
+
+.list {
+  margin-bottom: 35px;
+  font-weight: 500;
+  padding-left: 16px;
+}
+
+.list .item {
+  margin-bottom: 32px;
+}
+
+.text {
+  margin-bottom: 35px;
+}
+
+
+/*---------------------------------------------*/
+/*==================clothing===================*/
+/*---------------------------------------------*/
+
+.clothing {
+  color: #807D7E;
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  line-height: 1.675;
+  letter-spacing: 0.4px;
+
+  margin-bottom: 200px;
+}
+
+.clothing span {
+  color: #807D7E;
+  font-weight: 700;
+}
+
+.clothing h2 {
+  color: #3C4242;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.1964;
+  letter-spacing: 0.56px;
+
+  margin-bottom: 30px;
+}
+
+.clothing h3 {
+  color: #807D7E;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.5px; /* 167.5% */
+  letter-spacing: 0.4px;
+
+  margin-bottom: 25px;
+}
+
+.clothing .text p {
+  margin-bottom: 20px;
+}
+
+.clothing .text {
+  margin-bottom: 25px;
+}
+
+.clothing .last-text {
+  margin-bottom: 20px;
+}
+
+
+/*---------------------------------------------*/
+/*===================jewellery=================*/
+/*---------------------------------------------*/
+
+.jewellery {
+  color: #606060;
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  max-width: 1600px;
+  margin: 0 auto 160px;
+}
+
+.image-branch {
+  margin-right: 69px;
+  margin-top: -100px;
+}
+
+.jewellery .title,
+.jewellery .subtitle {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.jewellery .title {
+  color: #000;
+  font-size: 64px;
+  text-align: left;
+}
+
+.jewellery .subtitle {
+  color: #D58417;
+  font-size: 20px;
+  margin-bottom: 31px;
+}
+
+.jewellery .text-block {
+  display: inline-block;
+  max-width: 502px;
+  vertical-align: middle;
+  margin-right: 75px;
+}
+
+.jewellery .images-block {
+  display: inline-block;
+  max-width: 525px;
+  vertical-align: middle;
+}
+
+.image1 {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.image2 {
+  display: inline-block;
+}
+
+.woman1 {
+  border-radius: 88.5px;
+  margin: 0 0 0 -187px;
+  padding-top: 14px;
+}
+
+.woman2 {
+  border-radius: 153.5px;
+  margin: 0 0 0 -318px;
+  padding-top: 19px;
+}
+
+
+/*---------------------------------------------*/
+/*====================practice=================*/
+/*---------------------------------------------*/
+
+.practice {
+  color: #1f1f1f;
+  margin-bottom: 100px;
+}
+
+.practice h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.block{
+  width: 350px;
+  height: 250px;
+  background-color: #9de1d0;
+  padding: 15px;
+  display: inline-block;
+  margin: 0 26px 50px 26px;
+  vertical-align: top;
+}
+
+.block-border {
+  border: 10px solid #6B77E5;
+  border-bottom: 15px dashed #D58417;
+}
+
+.block-outline {
+  outline: 20px solid #e56bd3;
+}
+
+.block-border-radius {
+  border-radius: 10% 30% 50% 70%;
+  border: 10px double #afa211;
+}
+
+.block-shadow {
+  border-radius: 20px;
+  border: 5px dotted #999eaf;
+  box-shadow:
+  17.1px 14.3px 11.2px rgba(0, 0, 0, 0.107),
+  26.9px 22.5px 18.1px rgba(0, 0, 0, 0.132),
+  35.4px 29.6px 27.5px rgba(0, 0, 0, 0.151),
+  55px 46px 46px rgba(0, 0, 0, 0.21);
+}
+
+.block-opacity {
+  opacity: 0.7;
+}
+
+.block-visibility {
+  visibility: hidden;
+}
+
