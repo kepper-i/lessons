@@ -1,0 +1,428 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/*-----------------------------------------*/
+
+body {
+  color: #37393F;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.462;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/*-----------------header----------------*/
+
+.header {
+  background: url('../img/corrosia.webp') 0 0 / 100%;
+  padding: 50px 0;
+  margin-bottom: 100px;
+  color: #272728;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.header .list {
+  font-size: 30px;
+}
+
+
+/*---------------------main-------------------*/
+
+.main {
+  margin-bottom: 100px;
+}
+
+/*-------------------footer------------------*/
+
+.footer {
+  padding: 50px 0;
+}
+
+
+/*-------------------------------------------*/
+/*==================practice=================*/
+/*-------------------------------------------*/
+
+.practice {
+  font-size: 0;
+  margin-bottom: 145px;
+}
+
+.practice > * {
+  font-size: 18px;
+}
+
+.practice .block {
+  width: 560px;
+  min-height: 400px;
+  display: inline-block;
+  margin: 0 25px 50px;
+  border-radius: 20px;
+  box-shadow:
+  9.1px 8.7px 15.6px rgba(87, 59, 38, 0.289),
+  21px 20px 22px rgba(87, 59, 38, 0.31);
+}
+
+
+
+.practice .block1 {
+  background-color: #8cd7e7;
+  background-image: url('../img/butterfly.png');
+  background-position: 0 0;
+  background-size: 30%;
+}
+
+.practice .block2 {
+  background: #8cd7e7 url('../img/butterfly.png');
+  background-position: 30px 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.practice .block3 {
+  background: 
+  url('../img/butterfly.png') 50px 20px / 50% no-repeat,
+  url('../img/rust_.webp') 0 0 / 100% no-repeat
+  #8cd7e7;
+}
+
+.practice .block4 {
+  background: 
+  url('../img/butterfly.png') 50% / 65% no-repeat,
+  url('../img/rust_.webp') center / cover no-repeat
+  #8cd7e7;
+}
+
+.practice .block5 {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background: 
+  url('../img/butterfly.png') center / 30% no-repeat fixed
+  #8cd7e7;
+}
+
+
+/*-------------------------------------------*/
+/*===============welcome, scrin1=============*/
+/*-------------------------------------------*/
+
+.welcome {
+  max-width: 628px;
+  margin: 0 auto 150px;
+}
+
+
+.welcome .subtitle {
+  font-weight: 500;
+  padding-left: 18px;
+  margin-bottom: 16px;
+  background: url('../img/box.png') 0 50% no-repeat;
+}
+
+.welcome .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 20px;
+  max-width: 415px;
+}
+
+.welcome p {
+  color: #7D7D7D;
+  margin-bottom: 15px;
+}
+
+.welcome .text-end {
+  margin-bottom: 0;
+}
+
+.welcome .text {
+  margin-bottom: 20px;
+}
+
+.welcome .item {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 23px;
+  padding-left: 35px;
+  background: url('../img/check-mark.svg') 0 50% no-repeat;
+}
+
+.welcome .list {
+  margin-bottom: 43px;
+}
+
+.welcome .awards > * {
+  display: inline-block;
+  max-width: 296px;
+  padding: 32px 32px 32px 90px;
+
+}
+
+.welcome .awards h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.welcome .awards p {
+  font-size: 16px;
+}
+
+.welcome .diploma {
+  background: url('../img/diploma-icon.svg') 32px 32px no-repeat;
+  margin-right: 21px;
+}
+
+.welcome .cup {
+  background: url('../img/cup-icon.svg') 32px 32px no-repeat;
+}
+
+.welcome .awards {
+  margin-bottom: 37px;
+}
+
+.welcome .button {
+  display: inline-block;
+  background-color: #6B77E5;
+  color: #fff;
+  font-weight: 600;
+  line-height: normal;
+  padding: 22px 27px;
+}
+
+
+/*-------------------------------------------*/
+/*===============latest, scrin2==============*/
+/*-------------------------------------------*/
+
+.latest {
+  margin-bottom: 150px;
+}
+
+.latest .text-wrap{
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 47px;
+}
+
+.text-wrap .subtitle {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 14px;
+  padding-left: 18px;
+  background: url('../img/box.png') 0 50% no-repeat;
+}
+
+.text-wrap .title {
+  color: #37393F;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 14px;
+}
+
+.text-wrap .text {
+  color: #7D7D7D;
+}
+
+
+.latest .image-wrap {
+  text-align: center;
+  margin: 0 -17px;
+  font-size: 0;
+}
+
+.image-wrap .block {
+  width: 384px;
+  display: inline-block;
+  margin: 0 17px 58px;
+  text-align: left;
+}
+
+.image-wrap .bkg-image {
+  height: 500px;
+  margin-bottom: 24px;
+}
+
+.image-wrap .bkg1 {
+  background: url('../img/latest_1.jpg') 0 0 / cover no-repeat;
+}
+.image-wrap .bkg2 {
+  background: url('../img/latest_2.jpg') 0 0 / cover no-repeat;
+}
+.image-wrap .bkg3 {
+  background: url('../img/latest_3.jpg') 0 0 / cover no-repeat;
+}
+.image-wrap .bkg4 {
+  background: url('../img/latest_4.jpg') 0 0 / cover no-repeat;
+}
+.image-wrap .bkg5 {
+  background: url('../img/latest_5.jpg') 0 0 / cover no-repeat;
+}
+.image-wrap .bkg6 {
+  background: url('../img/latest_6.jpg') 0 0 / cover no-repeat;
+}
+
+.image-wrap .subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 15px;
+}
+
+.image-wrap .date {
+  color: #7D7D7D;
+  font-size: 14px;
+  padding-left: 25px;
+  background: url('../img/calendar.svg') 0 50% no-repeat;
+}
+
+
+/*-------------------------------------------*/
+/*==============clothing, scrin3=============*/
+/*-------------------------------------------*/
+
+.clothing {
+  color: #807D7E;
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  line-height: 1.675;
+  letter-spacing: 0.4px;
+
+  margin-bottom: 150px;
+}
+
+.clothing .title {
+  color: #3C4242;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.56px;
+
+  padding-left: 21px;
+  margin-left: -21px;
+
+  background: url('../img/stick.png') 0 center no-repeat;
+
+  margin-bottom: 30px;
+}
+
+.clothing .subtitle {
+  font-weight: 600;
+  font-family: "Core Sans C", sans-serif;
+  margin-bottom: 25px;
+}
+
+.clothing .text {
+  margin-bottom: 25px;
+}
+
+.clothing .text span {
+  font-weight: 700;
+}
+
+.clothing .text p {
+  margin-bottom: 20px;
+}
+
+.clothing .text-end {
+  margin-bottom: 20px;
+}
+
+.clothing a {
+  font-weight: 600;
+  font-family: "Core Sans C", sans-serif;
+}
+
+
+/*-------------------------------------------*/
+/*==============we-made, scrin4==============*/
+/*-------------------------------------------*/
+
+.we-made {
+  color: #FFF;
+}
+
+.we-made .wrapper {
+  font-size: 0;
+}
+
+.we-made .block-left {
+  display: inline-block;
+  width: 50%;
+  min-height: 640px;
+  border-radius: 15px 0 0 15px;
+
+  background: url('../img/fern.jpg') 0 0 / cover no-repeat;
+  padding: 183px 0 50px;
+}
+
+.we-made .block-right {
+  display: inline-block;
+  width: 50%;
+  min-height: 640px;
+  border-radius: 0 15px 15px 0;
+
+  background: url('../img/team.jpg') 0 0 / cover no-repeat;
+  vertical-align: top;
+}
+
+.block-left-wrap {
+  max-width: 466px;
+  margin: 0 auto;
+}
+
+.we-made h2 {
+  font-family: "Core Sans C", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.47;
+  letter-spacing: 0.208px;
+  margin-bottom: 30px;
+}
+
+.we-made .text {
+  font-family: "Causten", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.we-made .link {
+  display: inline-block;
+  color: #3C4242;
+  font-family: "Causten", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 12px 44px;
+  background-color: #FFF;
+  border-radius: 8px;
+}
