@@ -484,17 +484,43 @@ h1::after {
   font-size: 0;
 }
 
+.how-we-work .boxes {
+  display: inline-block;
+  padding-top: 50px;
+  max-width: 386px;
+}
+
+.how-we-work .boxes:not(:last-child) {
+  margin-right: 31px;
+}
+
 .how-we-work .box {
   display: inline-block;
   font-size: 18px;
-  max-width: 386px;
   min-height: 301px;
   padding: 58px 43px;
   background: #F4F4F4;
 }
 
-.how-we-work .box:not(:last-child) {
-  margin-right: 31px;
+.how-we-work .box::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+  margin-top: -94px;
+}
+
+.how-we-work .box1::before {
+  background: url('../img/calendar.svg') 0 0 no-repeat;
+}
+
+.how-we-work .box2::before {
+  background: url('../img/puzzle.svg') 0 0 no-repeat;
+}
+
+.how-we-work .box3::before {
+  background: url('../img/shield.svg') 0 0 no-repeat;
 }
 
 .how-we-work h3 {
@@ -521,35 +547,6 @@ h1::after {
   text-decoration: underline;
 }
 
-.how-we-work .box1::before {
-  content: "";
-  display: block;
-  width: 72px;
-  height: 72px;
-  background: url('../img/calendar.svg') 0 0 no-repeat;
-  margin: 0 auto;
-  margin-top: -94px;
-}
-
-.how-we-work .box2::before {
-  content: "";
-  display: block;
-  width: 72px;
-  height: 72px;
-  background: url('../img/puzzle.svg') 0 0 no-repeat;
-  margin: 0 auto;
-  margin-top: -94px;
-}
-
-.how-we-work .box3::before {
-  content: "";
-  display: block;
-  width: 72px;
-  height: 72px;
-  background: url('../img/shield.svg') 0 0 no-repeat;
-  margin: 0 auto;
-  margin-top: -94px;
-}
 
 
 /*-------------------------------------*/
