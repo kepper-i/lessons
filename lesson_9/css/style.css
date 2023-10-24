@@ -408,7 +408,8 @@ h1::after {
 }
 
 .we-care .slogan {
-  padding: 28px 41px 28px 84px;
+  padding: 28px 38px 28px 84px;
+  border: solid 1px #E3E3E3;
 }
 
 .we-care .slogan:not(:last-child) {
@@ -628,10 +629,10 @@ h1::after {
 
 .jewellery a:hover {
   color: #78473B;
-  font-size: 26px;
+  text-decoration: underline;
 }
 
 .jewellery a:hover + p {
   color: #78473B;
-  font-size: 26px;
+  text-decoration: underline;
 }
