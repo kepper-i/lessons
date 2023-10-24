@@ -625,3 +625,13 @@ h1::after {
 .jewellery h3 {
   font-size: 46px;
 }
+
+.jewellery a:hover {
+  color: #78473B;
+  font-size: 26px;
+}
+
+.jewellery a:hover + p {
+  color: #78473B;
+  font-size: 26px;
+}
