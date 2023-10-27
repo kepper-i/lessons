@@ -1,0 +1,74 @@
+@import url(reset.css);
+
+
+.header {
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+
+.main {
+  margin-bottom: 30px;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.wrap {
+  box-shadow:
+  1.3px 1.3px 1.9px -4px rgba(0, 0, 0, 0.093),
+  3.3px 3.3px 6.5px -4px rgba(0, 0, 0, 0.123),
+  10px 10px 29px -4px rgba(0, 0, 0, 0.45)
+  ;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.wrap:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.wrap .images {
+  font-size: 0;
+}
+
+.icons img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+.wrap .title {
+  font-size: 36px;
+  vertical-align: top;
+}
+
+.wrap h2 {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.content-rastr .image {
+  width: 100%;
+}
+
+.content-rastr .image05 {
+  width: 50%;
+}
+
+.interactive img:not(:last-of-type) {
+  margin-right: 20px;
+}
+
